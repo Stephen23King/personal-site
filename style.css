@@ -1,0 +1,128 @@
+body {
+    background-color: whitesmoke;
+}
+
+.bg-body {
+    background-image: url("assets-main/images-main/CP2 - Hero Section BG 2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    padding-top: 200px!important;
+    padding-bottom: 200px!important;
+}
+
+.my-photo {
+    width: 300px;
+    border: rgb(0, 0, 0) solid 7px;
+    border-radius: 50%;
+}
+
+.text-body-emphasis {
+    --bs-text-opacity: 1;
+    color: white!important;
+    font-size: calc(2.3rem + 2vw);
+    font-family: 'Encode Sans Condensed', sans-serif;
+    letter-spacing: 2px;
+}
+.text-body-emphasis:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: calc(0.6rem + 1.2vw)!important;
+    font-family: 'Overlock', sans-serif;
+}
+
+.lead {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 24px;
+    color: black;
+}
+
+.card {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    height: 50vh!important;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    letter-spacing: 2px;
+    opacity: 100%;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 42%;
+    margin-right: 42%;
+}
+
+#head-sections {
+    color: black!important;
+    font-size: calc(1.3rem + 1.2vw)!important;
+    opacity: 100%;
+}
+
+#subhead-sections {
+    font-size: calc(0.5rem + 1.2vw)!important;
+    font-family: 'Overlock', sans-serif;
+    font-weight: 500;
+}
+
+#contact {
+    font-family: 'Overlock', sans-serif!important;
+    letter-spacing: 4px!important;
+}
+#footer {
+    color: rgb(43, 0, 43)!important;
+    font-size: 18px;
+}
+
+#copyright {
+    font-size: 1rem!important;
+    color: black!important;
+}
+
+@media (max-width: 995px) {
+    .my-photo {
+        width: 250px;
+    }
+    
+    .my-photo-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card {
+        height: auto!important;
+    }
+    
+    .btn {
+        margin-left: 24%;
+        margin-right: 24%;
+    }
+}
