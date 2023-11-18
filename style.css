@@ -104,7 +104,7 @@ a {
     color: black!important;
 }
 
-@media (max-width: 995px) {
+@media (max-width: 600px) {
     .my-photo {
         width: 250px;
     }
